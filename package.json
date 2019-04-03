@@ -30,7 +30,7 @@
     "pretest": "npm run clean && npm run compile",
     "start": "dist",
     "tslint": "npx tslint -c tslint.json 'src/**/*.ts'",
-    "test": "jest --verbose --colors"
+    "test": "jest --detectOpenHandles --verbose --colors"
   },
   "engines": {
     "node": ">=8"
