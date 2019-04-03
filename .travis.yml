@@ -13,7 +13,4 @@ before_script:
   - npm run build-ts
 script:
   - npm run test
-services: mongodb 
-deploy:
-  on:
-    branch: master
+services: mongodb
